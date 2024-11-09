@@ -62,7 +62,7 @@
         form {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: left;
             margin-top: 20px;
         }
 
@@ -74,6 +74,12 @@
             font-size: 16px;
             padding: 10px 20px;
             cursor: pointer;
+        }
+        .access-level{
+        display: flex
+        
+        
+        
         }
     </style>
     
@@ -101,9 +107,15 @@
     <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
 
     <label>Access Levels:</label><br>
-    <input type="checkbox" name="accessLevel" value="Read"> Read<br>
-    <input type="checkbox" name="accessLevel" value="Write"> Write<br>
-    <input type="checkbox" name="accessLevel" value="Admin"> Admin<br><br>
+    <div  class="access-level">
+    <input type="checkbox" name="accessLevel" value="Read" /> <span>Read</span>
+    </div>
+    <div  class="access-level">
+    <input type="checkbox" name="accessLevel" value="Write" /> <span>Write</span>
+    </div> 
+    <div  class="access-level">
+    <input type="checkbox" name="accessLevel" value="Admin" /><span>Admin</span>
+    </div>
 
     <button type="submit">Add Software</button>
 </form>
