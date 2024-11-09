@@ -20,7 +20,7 @@
         /* Container styling */
         .container {
             text-align: center;
-            background-color: #fff;
+            
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -57,6 +57,7 @@
         .button-group {
             display: flex;
             gap: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -75,7 +76,8 @@
 
             <div class="button-group">
                 <button type="submit">Sign Up</button>
-                <button type="button" onclick="window.location.href='registration.jsp'">Register</button>
+                <a href="login.jsp" class="login-link">Login</a>
+                
             </div>
         </form>
     </div>

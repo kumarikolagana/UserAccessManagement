@@ -79,8 +79,9 @@
             <div class="button-group">
                 <button type="submit">Login</button>
                 <!-- Logout button (adjust the action URL as needed) -->
+                
                 <form action="LogoutServlet" method="post" style="display:inline;">
-                    <button type="submit">Logout</button>
+                    <button type="submit">Register</button>
                 </form>
             </div>
         </form>
