@@ -93,7 +93,7 @@
 <!-- Header with User Management title and Logout button -->
 <div class="header">
     <h2>User Management</h2>
-    <form action="LogoutServlet" method="post">
+    <form action="LogoutServlet" method="get">
         <button type="submit" class="logout-button">Logout</button>
     </form>
 </div>
